@@ -26,15 +26,15 @@ HealthPlate - це онлайн-сервіс для персоналізован
 HealthPlate\ \
 |— css\ \
 &nbsp;&nbsp;&nbsp;&nbsp;|— auth.css \
-  |— base.css \
-  |— components.css \
-  |— layout.css \
-  |— style.css \
+&nbsp;&nbsp;&nbsp;&nbsp;|— base.css \
+&nbsp;&nbsp;&nbsp;&nbsp;|— components.css \
+&nbsp;&nbsp;&nbsp;&nbsp;|— layout.css \
+&nbsp;&nbsp;&nbsp;&nbsp;|— style.css \
 |— images\ \
-  |— community\ \
-  |— recipes\ \
+&nbsp;&nbsp;&nbsp;&nbsp;|— community\ \
+&nbsp;&nbsp;&nbsp;&nbsp;|— recipes\ \
 |— js\ \
-  |— script.js\
+&nbsp;&nbsp;&nbsp;&nbsp;|— script.js\
 |— about.html \
 |— authorization.html \
 |— community.html \
