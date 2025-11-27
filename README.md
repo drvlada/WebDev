@@ -46,4 +46,23 @@ HealthPlate\ \
 |— register.html 
 
 ## Опис використаних технологій
+HTML5 — семантична розмітка та структура сторінок \
+CSS3 — стилізація інтерфейсу, адаптивний дизайн \
+JavaScript — бургер-меню та мінімальна інтерактивність \
+
+## HTML-елементи
+Семантичні теги: \
+header, nav, main, footer, section, article, form, figure, figcaption \
+
+Текст та списки: \
+h1–h3, p, ul, li, strong, span \
+
+Форми: \
+input, label, button, textarea \
+
+Медіа та навігація: \
+img, a \
+
+Службові елементи: \
+div, hr \
 
