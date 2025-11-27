@@ -48,21 +48,40 @@ HealthPlate\ \
 ## Опис використаних технологій
 HTML5 — семантична розмітка та структура сторінок \
 CSS3 — стилізація інтерфейсу, адаптивний дизайн \
-JavaScript — бургер-меню та мінімальна інтерактивність \
+JavaScript — бургер-меню та мінімальна інтерактивність 
 
 ## HTML-елементи
 Семантичні теги: \
-header, nav, main, footer, section, article, form, figure, figcaption \
+header, nav, main, footer, section, article, form, figure, figcaption 
 
 Текст та списки: \
-h1–h3, p, ul, li, strong, span \
+h1–h3, p, ul, li, strong, span 
 
 Форми: \
-input, label, button, textarea \
+input, label, button, textarea 
 
 Медіа та навігація: \
-img, a \
+img, a 
 
 Службові елементи: \
-div, hr \
+div, hr 
+
+## CSS-технології
+
+* CSS Custom Properties (змінні)
+* Flexbox для побудови макетів
+* CSS Grid для сіток
+* Media Queries для адаптивності
+* Reset та уніфікація стилів через *, *::before, *::after { box-sizing: border-box; }
+* Модульна структура (base.css, layout.css, components.css, auth.css)
+* Головний файл style.css з підключенням модулів через @import
+* Breakpoints: 768px, 480px
+* Перебудова блоків під мобільні пристрої
+* Реалізоване бургер-меню для маленьких екранів
+* Особливості реалізації
+* Плавні переходи та hover-ефекти
+* Тіні та скруглення елементів
+* Активні стани інпутів та кнопок
+* Уніфікована система відступів і кольорів
+* Кросбраузерна підтримка
 
