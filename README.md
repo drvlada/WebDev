@@ -25,7 +25,7 @@ HealthPlate - це онлайн-сервіс для персоналізован
 ## Структура проєкту
 HealthPlate\ \
 |— css\ \
-    |— auth.css \
+&nbsp;&nbsp;&nbsp;&nbsp;|— auth.css \
   |— base.css \
   |— components.css \
   |— layout.css \
@@ -34,7 +34,7 @@ HealthPlate\ \
   |— community\ \
   |— recipes\ \
 |— js\ \
-  |— script.js
+  |— script.js\
 |— about.html \
 |— authorization.html \
 |— community.html \
