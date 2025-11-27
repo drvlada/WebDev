@@ -43,4 +43,4 @@ HealthPlate\ \
 |— menu.html \
 |— profile.html \
 |— recipes.html \
-|— register.html \
+|— register.html 
