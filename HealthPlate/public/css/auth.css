@@ -1,0 +1,229 @@
+/* стилі для сторінок авторизації / реєстрації */
+:root {
+  --spacing-xsmall: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 0.75rem;
+  --spacing-large: 1.25rem;
+  --spacing-xlarge: 2rem;
+
+  --primary-color: var(--color-primary, #2fbf71);
+  --secondary-color: var(--color-primary-dark, #229956);
+  --accent-color: var(--color-accent, #ffc107);
+  --text-color: var(--color-text, #102a43);
+  --text-light: var(--color-text-muted, #627d98);
+  --border-color: var(--color-border, #d8e2ec);
+
+  --border-radius: 18px;
+  --shadow-small: 0 4px 10px rgba(15, 35, 52, 0.08);
+  --shadow-medium: 0 8px 20px rgba(15, 35, 52, 0.08);
+  --shadow-large: 0 14px 40px rgba(15, 35, 52, 0.12);
+}
+
+/* Розташування сторінки авторизації */
+.auth-page {
+  min-height: calc(100vh - 140px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-large) 0 var(--spacing-large);
+}
+
+/* Контейнер авторизації */
+.auth-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 0 var(--spacing-medium);
+}
+
+/* Картка форми */
+.auth-card {
+  background: var(--color-card);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-large);
+  padding: var(--spacing-xlarge);
+  width: 100%;
+}
+
+
+/* Заголовок форми */
+.auth-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xlarge);
+}
+
+.auth-header h1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: var(--spacing-small);
+}
+
+.auth-header p {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Форма авторизації*/
+.auth-form {
+  margin-bottom: var(--spacing-large);
+}
+
+/* Групи полів */
+.form-group {
+  margin-bottom: var(--spacing-medium);
+}
+
+.form-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: var(--spacing-xsmall);
+}
+
+.form-input {
+  margin-bottom: var(--spacing-xsmall);
+}
+
+.form-error {
+  min-height: 14px;
+  font-size: 0.8rem;
+  color: #d64545;
+}
+
+/* Чекбокс*/
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+.form-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/*Кнопки */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: var(--spacing-medium) var(--spacing-large);
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-small);
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/* Посилання */
+.link-small {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.link-small:hover {
+  text-decoration: underline;
+}
+
+.link-primary {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-primary:hover {
+  text-decoration: underline;
+}
+
+
+.btn-demo {
+  border-color: var(--accent-color);
+}
+
+.btn-demo:hover {
+  border-color: var(--accent-color);
+  background-color: rgba(255, 193, 7, 0.1);
+}
+
+/*Футер форми */
+.auth-footer {
+  text-align: center;
+  padding-top: var(--spacing-large);
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+}
+
+.auth-footer p {
+  margin: 0;
+  color: var(--text-light);
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .auth-page {
+    min-height: auto;
+    padding: var(--spacing-large) 0 var(--spacing-large);
+  }
+
+  .auth-container {
+    max-width: 420px;
+  }
+
+  .auth-card {
+    padding: var(--spacing-large);
+  }
+
+  .auth-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .btn-social {
+    padding: var(--spacing-medium);
+    font-size: 0.9rem;
+  }
+
+  .form-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xsmall);
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    padding: var(--spacing-medium) var(--spacing-medium);
+    border-radius: 14px;
+  }
+
+  .auth-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .auth-header p {
+    font-size: 0.9rem;
+  }
+}
