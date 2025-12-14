@@ -23,28 +23,49 @@ HealthPlate - це онлайн-сервіс для персоналізован
 * recipes.html - перелік рецептів за вподобаннями
   
 ## Структура проєкту
-HealthPlate\ \
-|— css\ \
-&nbsp;&nbsp;&nbsp;&nbsp;|— auth.css \
-&nbsp;&nbsp;&nbsp;&nbsp;|— base.css \
-&nbsp;&nbsp;&nbsp;&nbsp;|— components.css \
-&nbsp;&nbsp;&nbsp;&nbsp;|— layout.css \
-&nbsp;&nbsp;&nbsp;&nbsp;|— style.css \
-|— images\ \
-&nbsp;&nbsp;&nbsp;&nbsp;|— community\ \
-&nbsp;&nbsp;&nbsp;&nbsp;|— recipes\ \
-|— js\ \
-&nbsp;&nbsp;&nbsp;&nbsp;|— script.js\
-|— about.html \
-|— authorization.html \
-|— community.html \
-|— contacts.html \
-|— index.html \
-|— menu.html \
-|— profile.html \
-|— recipes.html \
-|— register.html 
+HealthPlate/ /
+|— node_modules /
+|— backend/ /
+	|— views/ /
+		|— layout.ejs /
+		|— recipe-form.ejs /
+		|— recipes-list.ejs /
+		|— stories-list.ejs /
+		|— story-form.ejs /
+|— config.js /
+ 	|— db.sqlite /
+	|— feedback.txt /
+	|— init.sql /
+	|— server.js /
+|— public/ /
+|— css/ /
+  	  	|— auth.css /
+  	 	|— base.css /
+  	  	|— components.css /
+ 	|— layout.css /
+ 	  	|— style.css / 
+|— images/ /
+  	|— community /
+ 	  	|— recipes /
+|— js/ /
+  	  	|— main.js /
+  	|— auth.js	 /
+|— uploads/ /
+|— about.html /
+|— authorization.html /
+|— community.html / 
+|— contacts.html /
+|— favorites.html /
+|— index.html /
+|— menu.html /
+|— profile.html /
+|—recipe.html /
+|— recipes.html /
+|— register.html /
+|—story.html /
 
+
+&nbsp;
 ## Опис використаних технологій
 HTML5 — семантична розмітка та структура сторінок \
 CSS3 — стилізація інтерфейсу, адаптивний дизайн \
