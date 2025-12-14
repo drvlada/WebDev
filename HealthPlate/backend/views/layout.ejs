@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin | Health Plate</title>
+  <style>
+    body {
+      font-family: system-ui;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f4f6f8;
+    }
+    header { margin-bottom: 20px; }
+    a { color: #2e7d32; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th { background: #f1f1f1; }
+    .btn { background: #2e7d32; padding: 6px 12px; color: white; border-radius: 5px; border: none; cursor: pointer; }
+    .btn.danger { background: #c62828; }
+    .btn.secondary { background: gray; }
+    .field { margin-bottom: 12px; }
+    .field input, .field textarea {
+      width: 100%;
+      padding: 6px;
+    }
+  </style>
+</head>
+<body>
+ <header>
+  <h1>Health Plate CMS</h1>
+  <p>
+    <a href="/admin/stories">Stories</a> |
+    <a href="/admin/recipes">Recipes</a> |
+    <a href="/">Open site</a>
+  </p>
+</header>
+  <main>
+    <%- body %>
+  </main>
+</body>
+</html>

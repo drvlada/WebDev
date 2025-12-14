@@ -1,0 +1,39 @@
+<%- include('layout', { body: `
+  <h2>Recipes</h2>
+
+  <p>
+    <a href="/admin/recipes/new" class="btn">+ Add Recipe</a>
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Slug</th>
+        <th>Category</th>
+        <th>Cooking time</th>
+        <th>Calories</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${recipes.map(r => `
+        <tr>
+          <td>${r.id}</td>
+          <td>${r.title}</td>
+          <td>${r.slug}</td>
+          <td>${r.category || ''}</td>
+          <td>${r.cooking_time || ''}</td>
+          <td>${r.calories || ''}</td>
+          <td>
+            <a class="btn secondary" href="/admin/recipes/${r.id}/edit">Edit</a>
+            <form method="post" action="/admin/recipes/${r.id}/delete" style="display:inline;">
+              <button class="btn danger">Delete</button>
+            </form>
+          </td>
+        </tr>
+      `).join('')}
+    </tbody>
+  </table>
+` }) %>

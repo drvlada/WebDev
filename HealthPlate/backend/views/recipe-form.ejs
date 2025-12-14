@@ -1,0 +1,52 @@
+<%- include('layout', { body: `
+  <h2>${recipe.id ? 'Edit recipe' : 'Create recipe'}</h2>
+
+  <form method="post" action="${action}">
+    <div class="field">
+      <label>Slug (URL)</label>
+      <input name="slug" value="${recipe.slug || ''}" required>
+    </div>
+
+    <div class="field">
+      <label>Title</label>
+      <input name="title" value="${recipe.title || ''}" required>
+    </div>
+
+    <div class="field">
+      <label>Category</label>
+      <input name="category" placeholder="Breakfast / Lunch / Dessert..." value="${recipe.category || ''}">
+    </div>
+
+    <div class="field">
+      <label>Cooking time</label>
+      <input name="cooking_time" placeholder="Ready in 10 min" value="${recipe.cooking_time || ''}">
+    </div>
+
+    <div class="field">
+      <label>Calories</label>
+      <input name="calories" placeholder="~320 kcal" value="${recipe.calories || ''}">
+    </div>
+
+    <div class="field">
+      <label>Image URL</label>
+      <input name="image" placeholder="images/recipes/your-photo.jpg" value="${recipe.image || ''}">
+    </div>
+
+    <div class="field">
+      <label>Short description</label>
+      <textarea name="short_desc" rows="3">${recipe.short_desc || ''}</textarea>
+    </div>
+
+    <div class="field">
+      <label>Full recipe (content)</label>
+      <textarea name="content" rows="8">${recipe.content || ''}</textarea>
+    </div>
+
+    <div class="field">
+      <label>Tags (comma separated)</label>
+      <input name="tags" value="${recipe.tags || ''}">
+    </div>
+
+    <button class="btn">${buttonText}</button>
+  </form>
+` }) %>

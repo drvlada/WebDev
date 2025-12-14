@@ -1,0 +1,64 @@
+<%- include('layout', { body: `
+  <h2>${story.id ? 'Edit story' : 'Create story'}</h2>
+
+  <form method="post" action="${action}">
+    <div class="field">
+      <label>Slug (URL)</label>
+      <input name="slug" value="${story.slug || ''}" required>
+    </div>
+
+    <div class="field">
+      <label>Title</label>
+      <input name="title" value="${story.title || ''}" required>
+    </div>
+
+    <div class="field">
+      <label>Category</label>
+      <input name="category" value="${story.category || ''}">
+    </div>
+
+    <div class="field">
+      <label>Date</label>
+      <input type="date" name="date" value="${story.date || ''}" required>
+    </div>
+
+    <div class="field">
+      <label>Read time (minutes)</label>
+      <input type="number" name="read_time" value="${story.read_time || ''}">
+    </div>
+
+    <div class="field">
+      <label>Author</label>
+      <input name="author" value="${story.author || ''}">
+    </div>
+
+    <div class="field">
+      <label>Image URL</label>
+      <input name="image" value="${story.image || ''}">
+    </div>
+
+    <div class="field">
+      <label>Excerpt (short summary)</label>
+      <textarea name="excerpt">${story.excerpt || ''}</textarea>
+    </div>
+
+    <div class="field">
+      <label>Content (separate paragraphs with empty lines)</label>
+      <textarea name="content">${story.content || ''}</textarea>
+    </div>
+
+    <div class="field">
+      <label>Tags (comma separated)</label>
+      <input name="tags" value="${story.tags || ''}">
+    </div>
+
+    <div class="field">
+      <label>
+        <input type="checkbox" name="featured" ${story.featured ? 'checked' : ''}>
+        Featured
+      </label>
+    </div>
+
+    <button class="btn">${buttonText}</button>
+  </form>
+` }) %>
