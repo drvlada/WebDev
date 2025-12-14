@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Health Plate</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+  <img src="images/logo.png" alt="Health Plate" width="50px">
+  <span>HealthPlate</span>
+</div>
+      <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="community.html">Community</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="authorization.html">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="menu-generator-wrapper">
+        <h2>Generate Your Menu</h2>
+      <div class="menu-generator">
+    <form id="menuForm" class="menu-form">
+      <label for="mealType">Meal Type:</label>
+      <select id="mealType">
+        <option value="all">All</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="dessert">Dessert</option>
+      </select>
+
+      <label for="goal">Goal:</label>
+      <select id="goal">
+        <option value="maintain">Maintain Weight</option>
+        <option value="lose">Lose Weight</option>
+        <option value="gain">Gain Weight</option>
+      </select>
+
+      <button type="submit">Generate Menu</button>
+    </form>
+      </div>
+    </section>
+
+    <h3>Suggested Recipes:</h3>
+    <div id="menuOutput"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="Health Plate" width="30">
+      </div>
+
+      <div class="footer-date">  
+        <span id="footerDate"></span>
+      </div>
+
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="community.html">Community</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+      </nav>
+
+      <div class="footer-copy">
+        <p>&copy; 2025 Health Plate. </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

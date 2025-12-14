@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe | Health Plate</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Health Plate" width="50">
+        <span>Health Plate</span>
+      </a>
+
+      <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="community.html">Community</a>
+        <a href="recipes.html" class="active">Recipes</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="authorization.html">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="feed">
+      <article class="post" id="recipeContainer">
+        <h2>Loading recipe...</h2>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="Health Plate" width="30">
+      </div>
+
+      <div class="footer-date">  
+        <span id="footerDate"></span>
+      </div>
+
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="community.html">Community</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+      </nav>
+
+      <div class="footer-copy">
+        <p>&copy; 2025 Health Plate. </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
