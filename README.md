@@ -33,7 +33,7 @@ HealthPlate/ \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— stories-list.ejs \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— story-form.ejs \
 &nbsp;&nbsp;&nbsp;&nbsp;|— config.js \
-&nbsp;&nbsp;&nbsp;&nbsp; |— db.sqlite \
+&nbsp;&nbsp;&nbsp;&nbsp;|— db.sqlite \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— feedback.txt \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— init.sql \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— server.js \
@@ -45,8 +45,8 @@ HealthPlate/ \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— layout.css \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— style.css \
 &nbsp;&nbsp;&nbsp;&nbsp;|— images/ \
-&nbsp;&nbsp;&nbsp;&nbsp;|— community \
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— recipes \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— community \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— recipes \
 &nbsp;&nbsp;&nbsp;&nbsp;|— js/ \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— main.js \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— auth.js	 \
