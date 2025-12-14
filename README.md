@@ -34,9 +34,9 @@ HealthPlate/ \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— story-form.ejs \
 &nbsp;&nbsp;&nbsp;&nbsp;|— config.js \
 &nbsp;&nbsp;&nbsp;&nbsp;|— db.sqlite \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— feedback.txt \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— init.sql \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— server.js \
+&nbsp;&nbsp;&nbsp;&nbsp;|— feedback.txt \
+&nbsp;&nbsp;&nbsp;&nbsp;|— init.sql \
+&nbsp;&nbsp;&nbsp;&nbsp;|— server.js \
 |— public/ \
 &nbsp;&nbsp;&nbsp;&nbsp;|— css/ \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— auth.css \
