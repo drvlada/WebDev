@@ -23,46 +23,46 @@ HealthPlate - це онлайн-сервіс для персоналізован
 * recipes.html - перелік рецептів за вподобаннями
   
 ## Структура проєкту
-HealthPlate/ /
-|— node_modules /
-|— backend/ /
-	|— views/ /
-		|— layout.ejs /
-		|— recipe-form.ejs /
-		|— recipes-list.ejs /
-		|— stories-list.ejs /
-		|— story-form.ejs /
-|— config.js /
- 	|— db.sqlite /
-	|— feedback.txt /
-	|— init.sql /
-	|— server.js /
-|— public/ /
-|— css/ /
-  	  	|— auth.css /
-  	 	|— base.css /
-  	  	|— components.css /
- 	|— layout.css /
- 	  	|— style.css / 
-|— images/ /
-  	|— community /
- 	  	|— recipes /
-|— js/ /
-  	  	|— main.js /
-  	|— auth.js	 /
-|— uploads/ /
-|— about.html /
-|— authorization.html /
-|— community.html / 
-|— contacts.html /
-|— favorites.html /
-|— index.html /
-|— menu.html /
-|— profile.html /
-|—recipe.html /
-|— recipes.html /
-|— register.html /
-|—story.html /
+HealthPlate/ \
+|— node_modules \
+|— backend/ \
+&nbsp;&nbsp;&nbsp;&nbsp;|— views/ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— layout.ejs \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— recipe-form.ejs \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— recipes-list.ejs \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— stories-list.ejs \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— story-form.ejs \
+&nbsp;&nbsp;&nbsp;&nbsp;|— config.js \
+&nbsp;&nbsp;&nbsp;&nbsp; |— db.sqlite \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— feedback.txt \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— init.sql \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— server.js \
+|— public/ \
+&nbsp;&nbsp;&nbsp;&nbsp;|— css/ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— auth.css \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— base.css \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— components.css \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— layout.css \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— style.css \
+&nbsp;&nbsp;&nbsp;&nbsp;|— images/ \
+&nbsp;&nbsp;&nbsp;&nbsp;|— community \
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— recipes \
+&nbsp;&nbsp;&nbsp;&nbsp;|— js/ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— main.js \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|— auth.js	 \
+&nbsp;&nbsp;&nbsp;&nbsp;|— uploads/ \
+&nbsp;&nbsp;&nbsp;&nbsp;|— about.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— authorization.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— community.html \ 
+&nbsp;&nbsp;&nbsp;&nbsp;|— contacts.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— favorites.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— index.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— menu.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— profile.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|—recipe.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— recipes.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|— register.html \
+&nbsp;&nbsp;&nbsp;&nbsp;|—story.html 
 
 
 &nbsp;
